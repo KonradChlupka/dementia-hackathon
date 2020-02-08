@@ -12,6 +12,7 @@ struct ChatRow: View {
                 if chat.id < 20 { // i.e. it's a group chat
                     Image(getActivityImageNameByClubId(clubId: chat.id))
                         .resizable()
+                        .aspectRatio(contentMode: .fill)
                         .frame(width: 50, height: 50)
                         .cornerRadius(25)
 
@@ -29,6 +30,7 @@ struct ChatRow: View {
                 else { // TODO: for now threadId is userId, but should be a concatanation of two
                     Image(getUsernameByUserId(userId: chat.id))
                         .resizable()
+                        .aspectRatio(contentMode: .fit)
                         .frame(width: 50, height: 50)
                         .cornerRadius(25)
 
