@@ -3,18 +3,21 @@
         "id": 10,
         "messages": [
             {
+                "id": 0,
                 "emojiOnly": false,
                 "body": "When's the class?",
                 "senderId": 1002,
                 "sentAt": "2020-02-08T09:25:43Z"
             },
             {
+                "id": 1,
                 "emojiOnly": false,
                 "body": "At 10",
                 "senderId": 1000,
                 "sentAt": "2020-02-08T09:26:43Z"
             },
             {
+                "id": 2,
                 "emojiOnly": false,
                 "body": "Better be on time!",
                 "senderId": 1001,
@@ -26,18 +29,21 @@
         "id": 1000,
         "messages": [
             {
+                "id": 0,
                 "emojiOnly": false,
                 "body": "Are you coming tomorrow?",
                 "senderId": 1000,
                 "sentAt": "2020-02-08T09:25:43Z"
             },
             {
+                "id": 1,
                 "emojiOnly": false,
                 "body": "Yeah",
                 "senderId": 1001,
                 "sentAt": "2020-02-08T09:27:43Z"
             },
             {
+                "id": 2,
                 "emojiOnly": true,
                 "body": "😄",
                 "senderId": 1001,
@@ -49,6 +55,7 @@
         "id": 1001,
         "messages": [
             {
+                "id": 0,
                 "emojiOnly": false,
                 "body": "See you tomorrow!",
                 "senderId": 1000,
@@ -60,18 +67,21 @@
         "id": 11,
         "messages": [
             {
+                "id": 0,
                 "emojiOnly": false,
                 "body": "When's the class?",
                 "senderId": 1002,
                 "sentAt": "2020-02-08T09:25:43Z"
             },
             {
+                "id": 1,
                 "emojiOnly": false,
                 "body": "At 10",
                 "senderId": 1000,
                 "sentAt": "2020-02-08T09:26:43Z"
             },
             {
+                "id": 2,
                 "emojiOnly": false,
                 "body": "Please send pictures from yesterday",
                 "senderId": 1001,
@@ -83,18 +93,21 @@
         "id": 12,
         "messages": [
             {
+                "id": 0,
                 "emojiOnly": false,
                 "body": "When's the class?",
                 "senderId": 1002,
                 "sentAt": "2020-02-08T09:25:43Z"
             },
             {
+                "id": 1,
                 "emojiOnly": false,
                 "body": "At 10",
                 "senderId": 1000,
                 "sentAt": "2020-02-08T09:26:43Z"
             },
             {
+                "id": 2,
                 "emojiOnly": false,
                 "body": "Thank you!",
                 "senderId": 1001,
@@ -106,18 +119,21 @@
         "id": 14,
         "messages": [
             {
+                "id": 0,
                 "emojiOnly": false,
                 "body": "When's the class?",
                 "senderId": 1002,
                 "sentAt": "2020-02-08T09:25:43Z"
             },
             {
+                "id": 1,
                 "emojiOnly": false,
                 "body": "At 10",
                 "senderId": 1000,
                 "sentAt": "2020-02-08T09:26:43Z"
             },
             {
+                "id": 2,
                 "emojiOnly": false,
                 "body": "Running a bit late",
                 "senderId": 1001,

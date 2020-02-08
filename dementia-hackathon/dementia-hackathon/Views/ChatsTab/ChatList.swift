@@ -5,7 +5,7 @@ struct ChatList: View {
         NavigationView {
             List {
                 ForEach(chatData) { chat in
-                    NavigationLink(destination: Text("Not implemented yet")) {
+                    NavigationLink(destination: ChatView(chat: chat, meId: 1002)) {
                         ChatRow(chat: chat)
                     }
                 }

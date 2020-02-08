@@ -2,14 +2,19 @@ import SwiftUI
 
 struct ChatView: View {
     var chat: Chat
-    
+    var meId: Int // id of the person using the phone
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List {
+            ForEach(chat.messages) { message in
+                Text("test")
+            }
+        }
     }
 }
 
 struct ChatView_Previews: PreviewProvider {
     static var previews: some View {
-        ChatView()
+        ChatView(chat: chatData[0], meId: 1002)
     }
 }

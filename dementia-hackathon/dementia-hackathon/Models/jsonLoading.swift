@@ -28,7 +28,8 @@ struct Coordinates: Hashable, Codable {
     var longitude: Double
 }
 
-struct Message: Codable {
+struct Message: Codable, Identifiable {
+    var id: Int
     var emojiOnly: Bool
     var body: String
     var senderId: Int
