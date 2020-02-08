@@ -1,0 +1,128 @@
+[
+    {
+        "id": 10,
+        "messages": [
+            {
+                "emojiOnly": false,
+                "body": "When's the class?",
+                "senderId": 1002,
+                "sentAt": "2020-02-08T09:25:43Z"
+            },
+            {
+                "emojiOnly": false,
+                "body": "At 10",
+                "senderId": 1000,
+                "sentAt": "2020-02-08T09:26:43Z"
+            },
+            {
+                "emojiOnly": false,
+                "body": "Better be on time!",
+                "senderId": 1001,
+                "sentAt": "2020-02-08T09:27:43Z"
+            }
+        ]
+    },
+    {
+        "id": 1000,
+        "messages": [
+            {
+                "emojiOnly": false,
+                "body": "Are you coming tomorrow?",
+                "senderId": 1000,
+                "sentAt": "2020-02-08T09:25:43Z"
+            },
+            {
+                "emojiOnly": false,
+                "body": "Yeah",
+                "senderId": 1001,
+                "sentAt": "2020-02-08T09:27:43Z"
+            },
+            {
+                "emojiOnly": true,
+                "body": "😄",
+                "senderId": 1001,
+                "sentAt": "2020-02-08T09:27:46Z"
+            }
+        ]
+    },
+    {
+        "id": 1001,
+        "messages": [
+            {
+                "emojiOnly": false,
+                "body": "See you tomorrow!",
+                "senderId": 1000,
+                "sentAt": "2020-02-08T09:25:43Z"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "messages": [
+            {
+                "emojiOnly": false,
+                "body": "When's the class?",
+                "senderId": 1002,
+                "sentAt": "2020-02-08T09:25:43Z"
+            },
+            {
+                "emojiOnly": false,
+                "body": "At 10",
+                "senderId": 1000,
+                "sentAt": "2020-02-08T09:26:43Z"
+            },
+            {
+                "emojiOnly": false,
+                "body": "Please send pictures from yesterday",
+                "senderId": 1001,
+                "sentAt": "2020-02-08T09:27:43Z"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "messages": [
+            {
+                "emojiOnly": false,
+                "body": "When's the class?",
+                "senderId": 1002,
+                "sentAt": "2020-02-08T09:25:43Z"
+            },
+            {
+                "emojiOnly": false,
+                "body": "At 10",
+                "senderId": 1000,
+                "sentAt": "2020-02-08T09:26:43Z"
+            },
+            {
+                "emojiOnly": false,
+                "body": "Thank you!",
+                "senderId": 1001,
+                "sentAt": "2020-02-08T09:27:43Z"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "messages": [
+            {
+                "emojiOnly": false,
+                "body": "When's the class?",
+                "senderId": 1002,
+                "sentAt": "2020-02-08T09:25:43Z"
+            },
+            {
+                "emojiOnly": false,
+                "body": "At 10",
+                "senderId": 1000,
+                "sentAt": "2020-02-08T09:26:43Z"
+            },
+            {
+                "emojiOnly": false,
+                "body": "Running a bit late",
+                "senderId": 1001,
+                "sentAt": "2020-02-08T09:27:43Z"
+            }
+        ]
+    }
+]

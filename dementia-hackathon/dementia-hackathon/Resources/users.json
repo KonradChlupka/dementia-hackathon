@@ -1,0 +1,47 @@
+[
+    {
+        "userId": 1000,
+        "userName": "Konrad",
+        "clubsJoined": [
+            10,
+            12
+        ],
+        "favoriteActivities": [
+            1
+        ],
+        "threadsJoined": [
+            10,
+            100101
+        ]
+    },
+    {
+        "userId": 1001,
+        "userName": "Dima",
+        "clubsJoined": [
+            10,
+            13
+        ],
+        "favoriteActivities": [
+            1
+        ],
+        "threadsJoined": [
+            10,
+            100101
+        ]
+    },
+    {
+        "userId": 1002,
+        "userName": "Ammar",
+        "clubsJoined": [
+            10,
+            14
+        ],
+        "favoriteActivities": [
+            1,
+            3
+        ],
+        "threadsJoined": [
+            10
+        ]
+    }
+]

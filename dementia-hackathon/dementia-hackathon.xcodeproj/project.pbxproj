@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7116C93023EF46F8009D5E54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7116C92F23EF46F8009D5E54 /* AppDelegate.swift */; };
+		7116C93223EF46F8009D5E54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7116C93123EF46F8009D5E54 /* SceneDelegate.swift */; };
+		7116C93423EF46F8009D5E54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7116C93323EF46F8009D5E54 /* ContentView.swift */; };
+		7116C93623EF46FB009D5E54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7116C93523EF46FB009D5E54 /* Assets.xcassets */; };
+		7116C93923EF46FB009D5E54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7116C93823EF46FB009D5E54 /* Preview Assets.xcassets */; };
+		7116C93C23EF46FB009D5E54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7116C93A23EF46FB009D5E54 /* LaunchScreen.storyboard */; };
+		7116C94823EF4759009D5E54 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7116C94723EF4759009D5E54 /* ChatView.swift */; };
+		7116C94A23EF4768009D5E54 /* ChatList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7116C94923EF4768009D5E54 /* ChatList.swift */; };
+		7116C94C23EF4778009D5E54 /* ChatRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7116C94B23EF4778009D5E54 /* ChatRow.swift */; };
+		7116C94E23EF4790009D5E54 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7116C94D23EF4790009D5E54 /* ExploreView.swift */; };
+		7116C95023EF479D009D5E54 /* ClubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7116C94F23EF479D009D5E54 /* ClubView.swift */; };
+		7116C95223EF47AB009D5E54 /* SpecificClubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7116C95123EF47AB009D5E54 /* SpecificClubView.swift */; };
+		7116C95423EF47B5009D5E54 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7116C95323EF47B5009D5E54 /* UserData.swift */; };
+		7116C95623EF47C1009D5E54 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7116C95523EF47C1009D5E54 /* MapView.swift */; };
+		7116C95823EF47CE009D5E54 /* MyActivitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7116C95723EF47CE009D5E54 /* MyActivitiesView.swift */; };
+		7116C95A23EF47DB009D5E54 /* MyClubsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7116C95923EF47DB009D5E54 /* MyClubsView.swift */; };
+		7116C95D23EF4805009D5E54 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7116C95C23EF4805009D5E54 /* CircleImage.swift */; };
+		7116C95F23EF480F009D5E54 /* CategoryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7116C95E23EF480F009D5E54 /* CategoryButton.swift */; };
+		7116C96123EF481A009D5E54 /* PlaceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7116C96023EF481A009D5E54 /* PlaceButton.swift */; };
+		7116C96323EF482A009D5E54 /* MyActivityCategoryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7116C96223EF482A009D5E54 /* MyActivityCategoryButton.swift */; };
+		7116C96523EF483F009D5E54 /* MyClubPlaceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7116C96423EF483F009D5E54 /* MyClubPlaceButton.swift */; };
+		7116C96723EF484A009D5E54 /* MyActivityInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7116C96623EF484A009D5E54 /* MyActivityInfo.swift */; };
+		7116C96A23EF4864009D5E54 /* jsonLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7116C96923EF4864009D5E54 /* jsonLoading.swift */; };
+		7116C96D23EF487B009D5E54 /* clubs.json in Sources */ = {isa = PBXBuildFile; fileRef = 7116C96C23EF487B009D5E54 /* clubs.json */; };
+		7116C97023EF48B3009D5E54 /* chats.json in Resources */ = {isa = PBXBuildFile; fileRef = 7116C96F23EF48B3009D5E54 /* chats.json */; };
+		7116C97223EF48BE009D5E54 /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = 7116C97123EF48BE009D5E54 /* users.json */; };
+		7116C97423EF48CB009D5E54 /* activities.json in Resources */ = {isa = PBXBuildFile; fileRef = 7116C97323EF48CB009D5E54 /* activities.json */; };
+		7116C97523EF4C97009D5E54 /* clubs.json in Resources */ = {isa = PBXBuildFile; fileRef = 7116C96C23EF487B009D5E54 /* clubs.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7116C92C23EF46F8009D5E54 /* dementia-hackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dementia-hackathon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7116C92F23EF46F8009D5E54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7116C93123EF46F8009D5E54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7116C93323EF46F8009D5E54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7116C93523EF46FB009D5E54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7116C93823EF46FB009D5E54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7116C93B23EF46FB009D5E54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7116C93D23EF46FB009D5E54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7116C94723EF4759009D5E54 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		7116C94923EF4768009D5E54 /* ChatList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatList.swift; sourceTree = "<group>"; };
+		7116C94B23EF4778009D5E54 /* ChatRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRow.swift; sourceTree = "<group>"; };
+		7116C94D23EF4790009D5E54 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		7116C94F23EF479D009D5E54 /* ClubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubView.swift; sourceTree = "<group>"; };
+		7116C95123EF47AB009D5E54 /* SpecificClubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificClubView.swift; sourceTree = "<group>"; };
+		7116C95323EF47B5009D5E54 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		7116C95523EF47C1009D5E54 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		7116C95723EF47CE009D5E54 /* MyActivitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyActivitiesView.swift; sourceTree = "<group>"; };
+		7116C95923EF47DB009D5E54 /* MyClubsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClubsView.swift; sourceTree = "<group>"; };
+		7116C95C23EF4805009D5E54 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		7116C95E23EF480F009D5E54 /* CategoryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryButton.swift; sourceTree = "<group>"; };
+		7116C96023EF481A009D5E54 /* PlaceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceButton.swift; sourceTree = "<group>"; };
+		7116C96223EF482A009D5E54 /* MyActivityCategoryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyActivityCategoryButton.swift; sourceTree = "<group>"; };
+		7116C96423EF483F009D5E54 /* MyClubPlaceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClubPlaceButton.swift; sourceTree = "<group>"; };
+		7116C96623EF484A009D5E54 /* MyActivityInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyActivityInfo.swift; sourceTree = "<group>"; };
+		7116C96923EF4864009D5E54 /* jsonLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsonLoading.swift; sourceTree = "<group>"; };
+		7116C96C23EF487B009D5E54 /* clubs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = clubs.json; sourceTree = "<group>"; };
+		7116C96F23EF48B3009D5E54 /* chats.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = chats.json; sourceTree = "<group>"; };
+		7116C97123EF48BE009D5E54 /* users.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
+		7116C97323EF48CB009D5E54 /* activities.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = activities.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7116C92923EF46F8009D5E54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7116C92323EF46F8009D5E54 = {
+			isa = PBXGroup;
+			children = (
+				7116C92E23EF46F8009D5E54 /* dementia-hackathon */,
+				7116C92D23EF46F8009D5E54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7116C92D23EF46F8009D5E54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7116C92C23EF46F8009D5E54 /* dementia-hackathon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7116C92E23EF46F8009D5E54 /* dementia-hackathon */ = {
+			isa = PBXGroup;
+			children = (
+				7116C96B23EF486C009D5E54 /* Resources */,
+				7116C96823EF4857009D5E54 /* Models */,
+				7116C95B23EF47F7009D5E54 /* Complementary */,
+				7116C94323EF4731009D5E54 /* Views */,
+				7116C92F23EF46F8009D5E54 /* AppDelegate.swift */,
+				7116C93123EF46F8009D5E54 /* SceneDelegate.swift */,
+				7116C93323EF46F8009D5E54 /* ContentView.swift */,
+				7116C93523EF46FB009D5E54 /* Assets.xcassets */,
+				7116C93A23EF46FB009D5E54 /* LaunchScreen.storyboard */,
+				7116C93D23EF46FB009D5E54 /* Info.plist */,
+				7116C93723EF46FB009D5E54 /* Preview Content */,
+			);
+			path = "dementia-hackathon";
+			sourceTree = "<group>";
+		};
+		7116C93723EF46FB009D5E54 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7116C93823EF46FB009D5E54 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7116C94323EF4731009D5E54 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7116C94423EF473A009D5E54 /* ChatsTab */,
+				7116C94D23EF4790009D5E54 /* ExploreView.swift */,
+				7116C94F23EF479D009D5E54 /* ClubView.swift */,
+				7116C95123EF47AB009D5E54 /* SpecificClubView.swift */,
+				7116C95323EF47B5009D5E54 /* UserData.swift */,
+				7116C95523EF47C1009D5E54 /* MapView.swift */,
+				7116C95723EF47CE009D5E54 /* MyActivitiesView.swift */,
+				7116C95923EF47DB009D5E54 /* MyClubsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7116C94423EF473A009D5E54 /* ChatsTab */ = {
+			isa = PBXGroup;
+			children = (
+				7116C94723EF4759009D5E54 /* ChatView.swift */,
+				7116C94923EF4768009D5E54 /* ChatList.swift */,
+				7116C94B23EF4778009D5E54 /* ChatRow.swift */,
+			);
+			path = ChatsTab;
+			sourceTree = "<group>";
+		};
+		7116C95B23EF47F7009D5E54 /* Complementary */ = {
+			isa = PBXGroup;
+			children = (
+				7116C95C23EF4805009D5E54 /* CircleImage.swift */,
+				7116C95E23EF480F009D5E54 /* CategoryButton.swift */,
+				7116C96023EF481A009D5E54 /* PlaceButton.swift */,
+				7116C96223EF482A009D5E54 /* MyActivityCategoryButton.swift */,
+				7116C96423EF483F009D5E54 /* MyClubPlaceButton.swift */,
+				7116C96623EF484A009D5E54 /* MyActivityInfo.swift */,
+			);
+			path = Complementary;
+			sourceTree = "<group>";
+		};
+		7116C96823EF4857009D5E54 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7116C96923EF4864009D5E54 /* jsonLoading.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7116C96B23EF486C009D5E54 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7116C96C23EF487B009D5E54 /* clubs.json */,
+				7116C96F23EF48B3009D5E54 /* chats.json */,
+				7116C97123EF48BE009D5E54 /* users.json */,
+				7116C97323EF48CB009D5E54 /* activities.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7116C92B23EF46F8009D5E54 /* dementia-hackathon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7116C94023EF46FB009D5E54 /* Build configuration list for PBXNativeTarget "dementia-hackathon" */;
+			buildPhases = (
+				7116C92823EF46F8009D5E54 /* Sources */,
+				7116C92923EF46F8009D5E54 /* Frameworks */,
+				7116C92A23EF46F8009D5E54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dementia-hackathon";
+			productName = "dementia-hackathon";
+			productReference = 7116C92C23EF46F8009D5E54 /* dementia-hackathon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7116C92423EF46F8009D5E54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Konrad Chlupka";
+				TargetAttributes = {
+					7116C92B23EF46F8009D5E54 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 7116C92723EF46F8009D5E54 /* Build configuration list for PBXProject "dementia-hackathon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7116C92323EF46F8009D5E54;
+			productRefGroup = 7116C92D23EF46F8009D5E54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7116C92B23EF46F8009D5E54 /* dementia-hackathon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7116C92A23EF46F8009D5E54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7116C97523EF4C97009D5E54 /* clubs.json in Resources */,
+				7116C97223EF48BE009D5E54 /* users.json in Resources */,
+				7116C93C23EF46FB009D5E54 /* LaunchScreen.storyboard in Resources */,
+				7116C97423EF48CB009D5E54 /* activities.json in Resources */,
+				7116C97023EF48B3009D5E54 /* chats.json in Resources */,
+				7116C93923EF46FB009D5E54 /* Preview Assets.xcassets in Resources */,
+				7116C93623EF46FB009D5E54 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7116C92823EF46F8009D5E54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7116C96323EF482A009D5E54 /* MyActivityCategoryButton.swift in Sources */,
+				7116C95A23EF47DB009D5E54 /* MyClubsView.swift in Sources */,
+				7116C96723EF484A009D5E54 /* MyActivityInfo.swift in Sources */,
+				7116C95223EF47AB009D5E54 /* SpecificClubView.swift in Sources */,
+				7116C95623EF47C1009D5E54 /* MapView.swift in Sources */,
+				7116C95823EF47CE009D5E54 /* MyActivitiesView.swift in Sources */,
+				7116C96D23EF487B009D5E54 /* clubs.json in Sources */,
+				7116C96A23EF4864009D5E54 /* jsonLoading.swift in Sources */,
+				7116C95023EF479D009D5E54 /* ClubView.swift in Sources */,
+				7116C94A23EF4768009D5E54 /* ChatList.swift in Sources */,
+				7116C96523EF483F009D5E54 /* MyClubPlaceButton.swift in Sources */,
+				7116C93023EF46F8009D5E54 /* AppDelegate.swift in Sources */,
+				7116C95423EF47B5009D5E54 /* UserData.swift in Sources */,
+				7116C95F23EF480F009D5E54 /* CategoryButton.swift in Sources */,
+				7116C94823EF4759009D5E54 /* ChatView.swift in Sources */,
+				7116C93223EF46F8009D5E54 /* SceneDelegate.swift in Sources */,
+				7116C96123EF481A009D5E54 /* PlaceButton.swift in Sources */,
+				7116C94C23EF4778009D5E54 /* ChatRow.swift in Sources */,
+				7116C94E23EF4790009D5E54 /* ExploreView.swift in Sources */,
+				7116C93423EF46F8009D5E54 /* ContentView.swift in Sources */,
+				7116C95D23EF4805009D5E54 /* CircleImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7116C93A23EF46FB009D5E54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7116C93B23EF46FB009D5E54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7116C93E23EF46FB009D5E54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7116C93F23EF46FB009D5E54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7116C94123EF46FB009D5E54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"dementia-hackathon/Preview Content\"";
+				DEVELOPMENT_TEAM = Q2568C73M5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "dementia-hackathon/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.konradchlupka.Landmarks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7116C94223EF46FB009D5E54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"dementia-hackathon/Preview Content\"";
+				DEVELOPMENT_TEAM = Q2568C73M5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "dementia-hackathon/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.konradchlupka.Landmarks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7116C92723EF46F8009D5E54 /* Build configuration list for PBXProject "dementia-hackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7116C93E23EF46FB009D5E54 /* Debug */,
+				7116C93F23EF46FB009D5E54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7116C94023EF46FB009D5E54 /* Build configuration list for PBXNativeTarget "dementia-hackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7116C94123EF46FB009D5E54 /* Debug */,
+				7116C94223EF46FB009D5E54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7116C92423EF46F8009D5E54 /* Project object */;
+}

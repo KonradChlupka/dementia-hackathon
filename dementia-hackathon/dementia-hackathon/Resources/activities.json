@@ -1,0 +1,26 @@
+[
+    {
+        "id": 100,
+        "name": "Yoga",
+        "imageName": "yoga",
+        "isInterested": true
+    },
+    {
+        "id": 101,
+        "name": "Tennis",
+        "imageName": "tennis",
+        "isInterested": false
+    },
+    {
+        "id": 102,
+        "name": "Football",
+        "imageName": "football",
+        "isInterested": false
+    },
+    {
+        "id": 103,
+        "name": "Rugby",
+        "imageName": "rugby",
+        "isInterested": false
+    }
+]

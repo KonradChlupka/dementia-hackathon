@@ -1,0 +1,52 @@
+[
+    {
+        "id": 10,
+        "name": "Astanga Yoga London",
+        "coordinates": {
+            "longitude": -0.136798,
+            "latitude": 51.527181
+        },
+        "activityId": 100,
+        "isJoint": false
+    },
+    {
+        "id": 11,
+        "name": "Uol Tennis Courts Cartwright Gardens",
+        "coordinates": {
+            "longitude": -0.126806,
+            "latitude": 51.526651
+        },
+        "activityId": 101,
+        "isJoint": false
+    },
+    {
+        "id": 12,
+        "name": "PFA United Football Academy",
+        "coordinates": {
+            "longitude": -0.124990,
+            "latitude": 51.525694
+        },
+        "activityId": 102,
+        "isJoint": false
+    },
+    {
+        "id": 13,
+        "name": "Bloomsbury Football",
+        "coordinates": {
+            "longitude": -0.121626,
+            "latitude": 51.525230
+        },
+        "activityId": 102,
+        "isJoint": true
+    },
+    {
+        "id": 14,
+        "name": "Belsize Park Rugby Football Club",
+        "coordinates": {
+            "longitude": -0.120167,
+            "latitude": 51.524399
+        },
+        "activityId": 103,
+        "isJoint": false
+    }
+]
