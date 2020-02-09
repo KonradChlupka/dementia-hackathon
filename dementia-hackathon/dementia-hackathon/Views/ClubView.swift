@@ -28,7 +28,7 @@ struct ClubView: View {
                 .navigationBarTitle("\(activity.name)" + " Places")
             }
             HStack{
-                Text("Whant to do").bold().font(.system(size: 20))
+                Text("Want to do").bold().font(.system(size: 20))
             Button(action: {
                 self.userData.activities[self.activityIndex].isInterested.toggle()
             }) {
