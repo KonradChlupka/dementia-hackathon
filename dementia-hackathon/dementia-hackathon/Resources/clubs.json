@@ -7,7 +7,7 @@
             "latitude": 51.527181
         },
         "activityId": 100,
-        "isJoint": false,
+        "isJoint": true,
         "website": "astangayogalondon.com",
         "telephone": "07747824178",
         "days": ["Monday","Friday"],
@@ -37,7 +37,7 @@
             "latitude": 51.535030
         },
         "activityId": 100,
-        "isJoint": false,
+        "isJoint": true,
         "website": "moreyoga.co.uk",
         "telephone": "0808 196 0345",
         "days": ["Monday","Friday"],
@@ -67,7 +67,7 @@
             "latitude": 51.546057
         },
         "activityId": 101,
-        "isJoint": false,
+        "isJoint": true,
         "website": "better.org.uk",
         "telephone": "02037936880",
         "days": ["Monday","Friday"],
@@ -97,7 +97,7 @@
             "latitude": 51.525207
         },
         "activityId": 102,
-        "isJoint": false,
+        "isJoint": true,
         "website": "bloomsburyfa.com",
         "telephone": "07561705232",
         "days": ["Monday","Friday"],
@@ -142,7 +142,7 @@
             "latitude": 51.521306
         },
         "activityId": 103,
-        "isJoint": false,
+        "isJoint": true,
         "website": "bprfc.co.uk",
         "telephone": "07706449708",
         "days": ["Monday","Friday"],
