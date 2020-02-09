@@ -7,7 +7,7 @@
             "latitude": 51.527181
         },
         "activityId": 100,
-        "isJoint": true,
+        "isJoint": false,
         "website": "astangayogalondon.com",
         "telephone": "07747824178",
         "days": ["Monday","Friday"],
@@ -22,7 +22,7 @@
             "latitude": 51.527698
         },
         "activityId": 100,
-        "isJoint": false,
+        "isJoint": true,
         "website": "rebelstudio.co.uk",
         "telephone": "02072782887",
         "days": ["Monday","Friday"],
@@ -39,7 +39,7 @@
         "activityId": 100,
         "isJoint": true,
         "website": "moreyoga.co.uk",
-        "telephone": "0808 196 0345",
+        "telephone": "08081960345",
         "days": ["Monday","Friday"],
         "times": ["09:25","15:45"],
         "rating": 5
@@ -189,7 +189,7 @@
         "activityId": 104,
         "isJoint": false,
         "website": "aikidogreenwich.co.uk",
-        "telephone": "07817 151584",
+        "telephone": "07817151584",
         "days": ["Monday","Friday"],
         "times": ["09:25","15:45"],
         "rating": 104
