@@ -35,6 +35,7 @@
 		7116C97223EF48BE009D5E54 /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = 7116C97123EF48BE009D5E54 /* users.json */; };
 		7116C97423EF48CB009D5E54 /* activities.json in Resources */ = {isa = PBXBuildFile; fileRef = 7116C97323EF48CB009D5E54 /* activities.json */; };
 		7116C97523EF4C97009D5E54 /* clubs.json in Resources */ = {isa = PBXBuildFile; fileRef = 7116C96C23EF487B009D5E54 /* clubs.json */; };
+		D29F47EE23EF6E56008E794C /* ClubTimeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29F47ED23EF6E56008E794C /* ClubTimeButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		7116C96F23EF48B3009D5E54 /* chats.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = chats.json; sourceTree = "<group>"; };
 		7116C97123EF48BE009D5E54 /* users.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
 		7116C97323EF48CB009D5E54 /* activities.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = activities.json; sourceTree = "<group>"; };
+		D29F47ED23EF6E56008E794C /* ClubTimeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubTimeButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 				7116C96223EF482A009D5E54 /* MyActivityCategoryButton.swift */,
 				7116C96423EF483F009D5E54 /* MyClubPlaceButton.swift */,
 				7116C96623EF484A009D5E54 /* MyActivityInfo.swift */,
+				D29F47ED23EF6E56008E794C /* ClubTimeButton.swift */,
 			);
 			path = Complementary;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				7116C95823EF47CE009D5E54 /* MyActivitiesView.swift in Sources */,
 				7116C96D23EF487B009D5E54 /* clubs.json in Sources */,
 				7116C96A23EF4864009D5E54 /* jsonLoading.swift in Sources */,
+				D29F47EE23EF6E56008E794C /* ClubTimeButton.swift in Sources */,
 				7116C95023EF479D009D5E54 /* ClubView.swift in Sources */,
 				7116C94A23EF4768009D5E54 /* ChatList.swift in Sources */,
 				7116C96523EF483F009D5E54 /* MyClubPlaceButton.swift in Sources */,
@@ -412,14 +416,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"dementia-hackathon/Preview Content\"";
-				DEVELOPMENT_TEAM = Q2568C73M5;
+				DEVELOPMENT_TEAM = 5DRA6D57V3;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "dementia-hackathon/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.konradchlupka.Landmarks;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dimaleyko.dementia-hackathon";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -432,14 +436,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"dementia-hackathon/Preview Content\"";
-				DEVELOPMENT_TEAM = Q2568C73M5;
+				DEVELOPMENT_TEAM = 5DRA6D57V3;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "dementia-hackathon/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.konradchlupka.Landmarks;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dimaleyko.dementia-hackathon";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
