@@ -13,6 +13,7 @@ struct AddActivityView: View {
         VStack(alignment: .leading){
             Text("Add Your Activity:").bold().font(.system(size:34))
             Spacer()
+            Spacer()
             HStack{
                 Text("Name: ")
                 Spacer()
