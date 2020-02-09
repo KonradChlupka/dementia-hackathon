@@ -5,14 +5,14 @@
             {
                 "id": 0,
                 "emojiOnly": false,
-                "body": "When's the class?",
+                "body": "When's the class? Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "senderId": 1002,
                 "sentAt": "2020-02-08T09:25:43Z"
             },
             {
                 "id": 1,
                 "emojiOnly": false,
-                "body": "At 10",
+                "body": "At 10. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "senderId": 1000,
                 "sentAt": "2020-02-08T09:26:43Z"
             },
@@ -22,6 +22,76 @@
                 "body": "Better be on time!",
                 "senderId": 1001,
                 "sentAt": "2020-02-08T09:27:43Z"
+            },
+            {
+                "id": 3,
+                "emojiOnly": false,
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "senderId": 1002,
+                "sentAt": "2020-02-08T09:25:43Z"
+            },
+            {
+                "id": 4,
+                "emojiOnly": false,
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "senderId": 1000,
+                "sentAt": "2020-02-08T09:26:43Z"
+            },
+            {
+                "id": 5,
+                "emojiOnly": false,
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "senderId": 1002,
+                "sentAt": "2020-02-08T09:25:43Z"
+            },
+            {
+                "id": 6,
+                "emojiOnly": false,
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "senderId": 1000,
+                "sentAt": "2020-02-08T09:26:43Z"
+            },
+            {
+                "id": 7,
+                "emojiOnly": false,
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "senderId": 1002,
+                "sentAt": "2020-02-08T09:25:43Z"
+            },
+            {
+                "id": 8,
+                "emojiOnly": false,
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "senderId": 1000,
+                "sentAt": "2020-02-08T09:26:43Z"
+            },
+            {
+                "id": 9,
+                "emojiOnly": false,
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "senderId": 1002,
+                "sentAt": "2020-02-08T09:25:43Z"
+            },
+            {
+                "id": 10,
+                "emojiOnly": false,
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "senderId": 1000,
+                "sentAt": "2020-02-08T09:26:43Z"
+            },
+            {
+                "id": 11,
+                "emojiOnly": false,
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "senderId": 1002,
+                "sentAt": "2020-02-08T09:25:43Z"
+            },
+            {
+                "id": 12,
+                "emojiOnly": false,
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "senderId": 1000,
+                "sentAt": "2020-02-08T09:26:43Z"
             }
         ]
     },
@@ -39,14 +109,14 @@
                 "id": 1,
                 "emojiOnly": false,
                 "body": "Yeah",
-                "senderId": 1001,
+                "senderId": 1002,
                 "sentAt": "2020-02-08T09:27:43Z"
             },
             {
                 "id": 2,
                 "emojiOnly": true,
                 "body": "😄",
-                "senderId": 1001,
+                "senderId": 1002,
                 "sentAt": "2020-02-08T09:27:46Z"
             }
         ]
@@ -58,7 +128,7 @@
                 "id": 0,
                 "emojiOnly": false,
                 "body": "See you tomorrow!",
-                "senderId": 1000,
+                "senderId": 1001,
                 "sentAt": "2020-02-08T09:25:43Z"
             }
         ]
