@@ -36,6 +36,7 @@
 		7116C97423EF48CB009D5E54 /* activities.json in Resources */ = {isa = PBXBuildFile; fileRef = 7116C97323EF48CB009D5E54 /* activities.json */; };
 		7116C97523EF4C97009D5E54 /* clubs.json in Resources */ = {isa = PBXBuildFile; fileRef = 7116C96C23EF487B009D5E54 /* clubs.json */; };
 		D29F47EE23EF6E56008E794C /* ClubTimeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29F47ED23EF6E56008E794C /* ClubTimeButton.swift */; };
+		D29F47F023EFFF29008E794C /* SCVTemp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29F47EF23EFFF28008E794C /* SCVTemp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +70,7 @@
 		7116C97123EF48BE009D5E54 /* users.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
 		7116C97323EF48CB009D5E54 /* activities.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = activities.json; sourceTree = "<group>"; };
 		D29F47ED23EF6E56008E794C /* ClubTimeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubTimeButton.swift; sourceTree = "<group>"; };
+		D29F47EF23EFFF28008E794C /* SCVTemp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCVTemp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 				7116C94D23EF4790009D5E54 /* ExploreView.swift */,
 				7116C94F23EF479D009D5E54 /* ClubView.swift */,
 				7116C95123EF47AB009D5E54 /* SpecificClubView.swift */,
+				D29F47EF23EFFF28008E794C /* SCVTemp.swift */,
 				7116C95323EF47B5009D5E54 /* UserData.swift */,
 				7116C95523EF47C1009D5E54 /* MapView.swift */,
 				7116C95723EF47CE009D5E54 /* MyActivitiesView.swift */,
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7116C96323EF482A009D5E54 /* MyActivityCategoryButton.swift in Sources */,
+				D29F47F023EFFF29008E794C /* SCVTemp.swift in Sources */,
 				7116C95A23EF47DB009D5E54 /* MyClubsView.swift in Sources */,
 				7116C96723EF484A009D5E54 /* MyActivityInfo.swift in Sources */,
 				7116C95223EF47AB009D5E54 /* SpecificClubView.swift in Sources */,

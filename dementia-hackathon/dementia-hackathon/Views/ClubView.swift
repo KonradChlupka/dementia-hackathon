@@ -21,24 +21,25 @@ struct ClubView: View {
                 }
                 .navigationBarTitle("\(activity.name)" + " Places")
             }
+            HStack{
+                Text("Whant to do").bold().font(.system(size: 20))
             Button(action: {
                 self.userData.activities[self.activityIndex].isInterested.toggle()
             }) {
-                if self.userData.activities[self.activityIndex].isInterested {
-                    Image(systemName: "star.fill")
-                        .foregroundColor(Color.yellow)
+               if self.userData.activities[self.activityIndex].isInterested {
+                   Image(systemName: "star.fill")
+                       .foregroundColor(.yellow)
+
                 } else {
                     Image(systemName: "star")
-                        .foregroundColor(Color.gray)
+                        .foregroundColor(.gray)
+                        //.foregroundColor(Color.gray)
+                    
                 }
                 // Text("Interested in "+"\(activity.name)").bold().font(.system(size: 20))
             }
-            .frame(minWidth: 100, minHeight: 70)
-            .padding(.horizontal, 50)
-            .padding(.vertical, 10)
-            // .background(Color.purple)
-            .foregroundColor(Color.purple)
-            .cornerRadius(30)
+            }
+            
         }
     }
 }

@@ -21,6 +21,6 @@ struct MyClubPlaceButton: View {
 
 struct MyClubPlaceButton_Previews: PreviewProvider {
     static var previews: some View {
-        MyClubPlaceButton(activity: activityData[0], club: clubData[0]).environmentObject(UserData())
+        MyClubPlaceButton(activity: activityData[1], club: clubData[1]).environmentObject(UserData())
     }
 }
