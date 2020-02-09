@@ -1,17 +1,31 @@
+import Foundation
 import SwiftUI
+import UIKit
 
 struct ChatView: View {
     var chat: Chat
     var meId: Int // id of the person using the phone
+    @State private var temp: String = ""
 
     var body: some View {
-        List {
-            ForEach(chat.messages) { message in
-                MessageView(messageBody: message.body, iAmSender: message.senderId == self.meId, sender: getUserOrClubNameFromChatId(id: message.senderId), groupChat: self.chat.id < 20)
+        VStack {
+            List {
+                ForEach(chat.messages) { message in
+                    MessageView(messageBody: message.body, iAmSender: message.senderId == self.meId, sender: getUserOrClubNameFromChatId(id: message.senderId), groupChat: self.chat.id < 20)
+                }
             }
+            .navigationBarTitle(Text(getUserOrClubNameFromChatId(id: chat.id)), displayMode: .inline)
+            .onAppear { UITableView.appearance().separatorStyle = .none }
+            Spacer()
+            TextField("", text: $temp)
+                .font(.system(size: 15))
+                .textFieldStyle(RoundedBorderTextFieldStyle())
+                .offset(y: -5)
+                .padding(.horizontal, 20.0)
         }
-        .navigationBarTitle(Text(getUserOrClubNameFromChatId(id: chat.id)), displayMode: .inline)
-        .onAppear { UITableView.appearance().separatorStyle = .none }
+        .onTapGesture {
+            UIApplication.shared.keyWindow!.endEditing(true)
+        }
     }
 }
 
