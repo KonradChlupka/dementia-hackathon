@@ -14,7 +14,7 @@ struct MyActivityCategoryButton: View {
             .background(Image(activity.imageName).resizable().scaledToFill().blur(radius: 3).colorMultiply(.gray))
         .foregroundColor(Color.white)
         .cornerRadius(30)
-        .sheet(isPresented: $isPresented, content: { MyActivityInfo().environmentObject(self.userData) })
+            .sheet(isPresented: $isPresented, content: { ClubView(activity: self.activity).environmentObject(self.userData) })
     }
 }
 

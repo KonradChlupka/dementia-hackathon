@@ -28,7 +28,6 @@
 		7116C96123EF481A009D5E54 /* PlaceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7116C96023EF481A009D5E54 /* PlaceButton.swift */; };
 		7116C96323EF482A009D5E54 /* MyActivityCategoryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7116C96223EF482A009D5E54 /* MyActivityCategoryButton.swift */; };
 		7116C96523EF483F009D5E54 /* MyClubPlaceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7116C96423EF483F009D5E54 /* MyClubPlaceButton.swift */; };
-		7116C96723EF484A009D5E54 /* MyActivityInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7116C96623EF484A009D5E54 /* MyActivityInfo.swift */; };
 		7116C96A23EF4864009D5E54 /* jsonLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7116C96923EF4864009D5E54 /* jsonLoading.swift */; };
 		7116C96D23EF487B009D5E54 /* clubs.json in Sources */ = {isa = PBXBuildFile; fileRef = 7116C96C23EF487B009D5E54 /* clubs.json */; };
 		7116C97023EF48B3009D5E54 /* chats.json in Resources */ = {isa = PBXBuildFile; fileRef = 7116C96F23EF48B3009D5E54 /* chats.json */; };
@@ -63,7 +62,6 @@
 		7116C96023EF481A009D5E54 /* PlaceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceButton.swift; sourceTree = "<group>"; };
 		7116C96223EF482A009D5E54 /* MyActivityCategoryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyActivityCategoryButton.swift; sourceTree = "<group>"; };
 		7116C96423EF483F009D5E54 /* MyClubPlaceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClubPlaceButton.swift; sourceTree = "<group>"; };
-		7116C96623EF484A009D5E54 /* MyActivityInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyActivityInfo.swift; sourceTree = "<group>"; };
 		7116C96923EF4864009D5E54 /* jsonLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsonLoading.swift; sourceTree = "<group>"; };
 		7116C96C23EF487B009D5E54 /* clubs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = clubs.json; sourceTree = "<group>"; };
 		7116C96F23EF48B3009D5E54 /* chats.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = chats.json; sourceTree = "<group>"; };
@@ -160,7 +158,6 @@
 				7116C96023EF481A009D5E54 /* PlaceButton.swift */,
 				7116C96223EF482A009D5E54 /* MyActivityCategoryButton.swift */,
 				7116C96423EF483F009D5E54 /* MyClubPlaceButton.swift */,
-				7116C96623EF484A009D5E54 /* MyActivityInfo.swift */,
 				D29F47ED23EF6E56008E794C /* ClubTimeButton.swift */,
 			);
 			path = Complementary;
@@ -262,7 +259,6 @@
 			files = (
 				7116C96323EF482A009D5E54 /* MyActivityCategoryButton.swift in Sources */,
 				7116C95A23EF47DB009D5E54 /* MyClubsView.swift in Sources */,
-				7116C96723EF484A009D5E54 /* MyActivityInfo.swift in Sources */,
 				7116C95223EF47AB009D5E54 /* SpecificClubView.swift in Sources */,
 				7116C95623EF47C1009D5E54 /* MapView.swift in Sources */,
 				7116C95823EF47CE009D5E54 /* MyActivitiesView.swift in Sources */,
