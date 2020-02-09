@@ -7,7 +7,13 @@
             "latitude": 51.527181
         },
         "activityId": 100,
-        "isJoint": false
+        "isJoint": false,
+        "website": "instagram.com",
+        "telephone": "07747824178",
+        "days": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "times": ["09:25","15:45"],
+        "description": "Yoga is a group of physical, mental, and spiritual practices or disciplines which originated in ancient India. Yoga is one of the six orthodox schools of Hindu philosophical traditions."
+        
     },
     {
         "id": 11,
@@ -17,7 +23,12 @@
             "latitude": 51.526651
         },
         "activityId": 101,
-        "isJoint": false
+        "isJoint": false,
+        "website": "",
+        "telephone": "",
+        "days": [""],
+        "times": [""],
+        "description": ""
     },
     {
         "id": 12,
@@ -27,7 +38,12 @@
             "latitude": 51.525694
         },
         "activityId": 102,
-        "isJoint": false
+        "isJoint": false,
+        "website": "",
+        "telephone": "",
+        "days": [""],
+        "times": [""],
+        "description": ""
     },
     {
         "id": 13,
@@ -37,7 +53,12 @@
             "latitude": 51.525230
         },
         "activityId": 102,
-        "isJoint": true
+        "isJoint": true,
+        "website": "",
+        "telephone": "",
+        "days": [""],
+        "times": [""],
+        "description": ""
     },
     {
         "id": 14,
@@ -47,6 +68,11 @@
             "latitude": 51.524399
         },
         "activityId": 103,
-        "isJoint": false
+        "isJoint": false,
+        "website": "",
+        "telephone": "",
+        "days": [""],
+        "times": [""],
+        "description": ""
     }
 ]

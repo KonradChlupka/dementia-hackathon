@@ -21,6 +21,12 @@ struct Club: Hashable, Codable, Identifiable {
 
     var activityId: Int
     var isJoint: Bool
+    var website: String
+    var telephone: String
+    var days: [String]
+    var times: [String]
+    var description: String
+    
 }
 
 struct Coordinates: Hashable, Codable {

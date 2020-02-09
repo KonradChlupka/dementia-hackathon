@@ -14,8 +14,8 @@ struct ClubView: View {
         VStack {
             NavigationView {
                 List(getClubsByActivity(activity: self.activity)) { club in
-                    VStack( /* alignment: .center */ ) {
-                        Text(club.name).bold()
+                    VStack(alignment: .center) {
+                        Text(club.name).bold().font(.system(size: 21))
                         PlaceButton(club: club, activity: self.activity)
                     }
                 }
