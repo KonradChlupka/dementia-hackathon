@@ -2,6 +2,7 @@ import SwiftUI
 
 struct MyClubsView: View {
     @EnvironmentObject var userData: UserData
+    @State var isPresented = false
     var body: some View {
         NavigationView {
             List {
@@ -12,6 +13,23 @@ struct MyClubsView: View {
                 }
             }
             .navigationBarTitle(Text("My Clubs"))
+            .navigationBarItems(trailing:
+                
+            Button(action: { self.isPresented.toggle() }) {
+                HStack(alignment: .center){
+                Text("My Activity")
+                Image(systemName: "plus")
+                    
+            }
+                .padding(.all, 5.0)
+                .background(Color.blue)
+                .foregroundColor(Color.white)
+                .cornerRadius(15)
+                .sheet(isPresented: $isPresented, content: { AddActivityView() })
+                }
+            
+            )
+                
         }
     }
 }

@@ -11,7 +11,7 @@ struct CategoryButton: View {
         }
         // .padding(10.0)
         .frame(minWidth: 100, maxWidth: .infinity, minHeight: 200)
-        .background(Image(activity.imageName).resizable().scaledToFill().blur(radius: 3))
+            .background(Image(activity.imageName).resizable().scaledToFill().blur(radius: 3).colorMultiply(.gray))
         .foregroundColor(Color.white)
         .cornerRadius(30)
         .sheet(isPresented: $isPresented, content: { ClubView(activity: self.activity).environmentObject(self.userData) })

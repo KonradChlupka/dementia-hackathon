@@ -12,7 +12,7 @@ struct MyClubPlaceButton: View {
         }
         // .padding(10.0)
         .frame(minWidth: 100, maxWidth: .infinity, minHeight: 200)
-        .background(Image(activity.imageName).resizable().scaledToFill().blur(radius: 3))
+            .background(Image(activity.imageName).resizable().scaledToFill().blur(radius: 3).colorMultiply(.gray))
         .foregroundColor(Color.white)
         .cornerRadius(30)
         .sheet(isPresented: $isPresented, content: { SpecificClubView(club: self.club, activity: self.activity).environmentObject(self.userData) })
@@ -21,6 +21,6 @@ struct MyClubPlaceButton: View {
 
 struct MyClubPlaceButton_Previews: PreviewProvider {
     static var previews: some View {
-        MyClubPlaceButton(activity: activityData[0], club: clubData[0]).environmentObject(UserData())
+        MyClubPlaceButton(activity: activityData[1], club: clubData[1]).environmentObject(UserData())
     }
 }

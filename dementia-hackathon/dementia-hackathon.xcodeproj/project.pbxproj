@@ -36,6 +36,7 @@
 		7116C97423EF48CB009D5E54 /* activities.json in Resources */ = {isa = PBXBuildFile; fileRef = 7116C97323EF48CB009D5E54 /* activities.json */; };
 		7116C97523EF4C97009D5E54 /* clubs.json in Resources */ = {isa = PBXBuildFile; fileRef = 7116C96C23EF487B009D5E54 /* clubs.json */; };
 		D29F47EE23EF6E56008E794C /* ClubTimeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29F47ED23EF6E56008E794C /* ClubTimeButton.swift */; };
+		D29F47F423F02D26008E794C /* AddActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29F47F323F02D26008E794C /* AddActivityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +70,7 @@
 		7116C97123EF48BE009D5E54 /* users.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
 		7116C97323EF48CB009D5E54 /* activities.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = activities.json; sourceTree = "<group>"; };
 		D29F47ED23EF6E56008E794C /* ClubTimeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubTimeButton.swift; sourceTree = "<group>"; };
+		D29F47F323F02D26008E794C /* AddActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddActivityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 				7116C95323EF47B5009D5E54 /* UserData.swift */,
 				7116C95523EF47C1009D5E54 /* MapView.swift */,
 				7116C95723EF47CE009D5E54 /* MyActivitiesView.swift */,
+				D29F47F323F02D26008E794C /* AddActivityView.swift */,
 				7116C95923EF47DB009D5E54 /* MyClubsView.swift */,
 			);
 			path = Views;
@@ -276,6 +279,7 @@
 				7116C93223EF46F8009D5E54 /* SceneDelegate.swift in Sources */,
 				7116C96123EF481A009D5E54 /* PlaceButton.swift in Sources */,
 				7116C94C23EF4778009D5E54 /* ChatRow.swift in Sources */,
+				D29F47F423F02D26008E794C /* AddActivityView.swift in Sources */,
 				7116C94E23EF4790009D5E54 /* ExploreView.swift in Sources */,
 				7116C93423EF46F8009D5E54 /* ContentView.swift in Sources */,
 				7116C95D23EF4805009D5E54 /* CircleImage.swift in Sources */,
