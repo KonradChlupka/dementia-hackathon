@@ -13,11 +13,17 @@ struct ClubView: View {
     var body: some View {
         VStack {
             NavigationView {
-                List(getClubsByActivity(activity: self.activity)) { club in
+                
+                List() {
+                    Text(activity.description).font(.subheadline)
+                    Text("")
+                    ForEach(getClubsByActivity(activity: self.activity)){ club in
                     VStack(alignment: .center) {
                         Text(club.name).bold().font(.system(size: 21))
                         PlaceButton(club: club, activity: self.activity)
                     }
+                    }
+                    
                 }
                 .navigationBarTitle("\(activity.name)" + " Places")
             }
