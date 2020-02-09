@@ -5,13 +5,19 @@ struct MyActivitiesView: View {
     var body: some View {
             NavigationView {
                 List {
+                    VStack(alignment: .leading){
+                        Divider()
                     Text("Doing").bold().font(.system(size:34))
+                    }
                     ForEach(userData.activities) { activity in
                         if areAnyClubsJoint(activity1: activity, userData: self.userData) {
                             MyActivityCategoryButton(activity: activity)
                         }
                     }
+                    VStack(alignment: .leading){
+                        Divider()
                     Text("Want to do").bold().font(.system(size:34))
+                    }
                     ForEach(userData.activities) { activity in
                         if activity.isInterested && !areAnyClubsJoint(activity1: activity, userData: self.userData) {
                             MyActivityCategoryButton(activity: activity)
