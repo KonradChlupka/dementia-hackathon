@@ -7,6 +7,7 @@ struct Activity: Hashable, Codable, Identifiable {
     var name: String
     var imageName: String
     var isInterested: Bool
+    var description: String
 }
 
 struct Club: Hashable, Codable, Identifiable {

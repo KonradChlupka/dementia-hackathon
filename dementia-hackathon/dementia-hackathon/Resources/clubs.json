@@ -74,5 +74,21 @@
         "days": [""],
         "times": [""],
         "description": ""
-    }
+    },
+    {
+        "id": 10,
+        "name": "Astanga Yoga London",
+        "coordinates": {
+            "longitude": -0.136798,
+            "latitude": 51.527181
+        },
+        "activityId": 100,
+        "isJoint": false,
+        "website": "instagram.com",
+        "telephone": "07747824178",
+        "days": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "times": ["09:25","15:45"],
+        "description": "Yoga is a group of physical, mental, and spiritual practices or disciplines which originated in ancient India. Yoga is one of the six orthodox schools of Hindu philosophical traditions."
+        
+    },
 ]
