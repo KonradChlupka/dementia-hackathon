@@ -26,7 +26,6 @@ struct Club: Hashable, Codable, Identifiable {
     var telephone: String
     var days: [String]
     var times: [String]
-    var description: String
     
 }
 
