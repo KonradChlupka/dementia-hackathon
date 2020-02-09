@@ -61,12 +61,5 @@
         "imageName": "chess",
         "isInterested": true,
         "description": "Chess is a two-player strategy board game played on a checkered board with 64 squares arranged in an 8×8 grid. The game is played by millions of people worldwide. Chess is believed to be derived from the Indian game chaturanga sometime before the 7th century. Chaturanga is also the likely ancestor of the Eastern strategy games xiangqi, janggi, and shogi. Chess reached Europe by the 9th century, due to the Umayyad conquest of Hispania."
-    },
-    {
-        "id": 109,
-        "name": "Comedy",
-        "imageName": "comedy",
-        "isInterested": false,
-        "description": "In a modern sense, comedy is a genre of fiction that refers to any discourse or work generally intended to be humorous or amusing by inducing laughter, especially in theatre, television, film, stand-up comedy, books and novels or any other medium of entertainment. The origins of the term are found in Ancient Greece. In the Athenian democracy, the public opinion of voters was influenced by the political satire performed by the comic poets at the theaters."
     }
 ]

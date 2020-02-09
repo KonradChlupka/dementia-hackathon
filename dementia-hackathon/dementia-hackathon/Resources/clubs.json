@@ -8,87 +8,310 @@
         },
         "activityId": 100,
         "isJoint": false,
-        "website": "instagram.com",
+        "website": "astangayogalondon.com",
         "telephone": "07747824178",
-        "days": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "days": ["Monday","Friday"],
         "times": ["09:25","15:45"],
-        "description": "Yoga is a group of physical, mental, and spiritual practices or disciplines which originated in ancient India. Yoga is one of the six orthodox schools of Hindu philosophical traditions."
-        
+        "rating": 5
     },
     {
         "id": 11,
-        "name": "Uol Tennis Courts Cartwright Gardens",
+        "name": "Rebel Studio",
         "coordinates": {
-            "longitude": -0.126806,
-            "latitude": 51.526651
-        },
-        "activityId": 101,
-        "isJoint": false,
-        "website": "",
-        "telephone": "",
-        "days": [""],
-        "times": [""],
-        "description": ""
-    },
-    {
-        "id": 12,
-        "name": "PFA United Football Academy",
-        "coordinates": {
-            "longitude": -0.124990,
-            "latitude": 51.525694
-        },
-        "activityId": 102,
-        "isJoint": false,
-        "website": "",
-        "telephone": "",
-        "days": [""],
-        "times": [""],
-        "description": ""
-    },
-    {
-        "id": 13,
-        "name": "Bloomsbury Football",
-        "coordinates": {
-            "longitude": -0.121626,
-            "latitude": 51.525230
-        },
-        "activityId": 102,
-        "isJoint": true,
-        "website": "",
-        "telephone": "",
-        "days": [""],
-        "times": [""],
-        "description": ""
-    },
-    {
-        "id": 14,
-        "name": "Belsize Park Rugby Football Club",
-        "coordinates": {
-            "longitude": -0.120167,
-            "latitude": 51.524399
-        },
-        "activityId": 103,
-        "isJoint": false,
-        "website": "",
-        "telephone": "",
-        "days": [""],
-        "times": [""],
-        "description": ""
-    },
-    {
-        "id": 10,
-        "name": "Astanga Yoga London",
-        "coordinates": {
-            "longitude": -0.136798,
-            "latitude": 51.527181
+            "longitude": -0.123414,
+            "latitude": 51.527698
         },
         "activityId": 100,
         "isJoint": false,
-        "website": "instagram.com",
-        "telephone": "07747824178",
-        "days": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "website": "rebelstudio.co.uk",
+        "telephone": "02072782887",
+        "days": ["Monday","Friday"],
         "times": ["09:25","15:45"],
-        "description": "Yoga is a group of physical, mental, and spiritual practices or disciplines which originated in ancient India. Yoga is one of the six orthodox schools of Hindu philosophical traditions."
-        
+        "rating": 5
     },
+    {
+        "id": 12,
+        "name": "More Yoga",
+        "coordinates": {
+            "longitude": -0.137504,
+            "latitude": 51.535030
+        },
+        "activityId": 100,
+        "isJoint": false,
+        "website": "moreyoga.co.uk",
+        "telephone": "0808 196 0345",
+        "days": ["Monday","Friday"],
+        "times": ["09:25","15:45"],
+        "rating": 5
+    },
+    {
+        "id": 13,
+        "name": "Will to Win Regents Park Tennis Centre",
+        "coordinates": {
+            "longitude": -0.153931,
+            "latitude": 51.525609
+        },
+        "activityId": 101,
+        "isJoint": false,
+        "website": "willtowin.co.uk",
+        "telephone": "02074864216",
+        "days": ["Monday","Friday"],
+        "times": ["09:25","15:45"],
+        "rating": 4
+    },
+    {
+        "id": 14,
+        "name": "Islington Tennis Centre and Gym",
+        "coordinates": {
+            "longitude": -0.121804,
+            "latitude": 51.546057
+        },
+        "activityId": 101,
+        "isJoint": false,
+        "website": "better.org.uk",
+        "telephone": "02037936880",
+        "days": ["Monday","Friday"],
+        "times": ["09:25","15:45"],
+        "rating": 4.2
+    },
+    {
+        "id": 15,
+        "name": "London Tennis Academy",
+        "coordinates": {
+            "longitude": -0.163990,
+            "latitude": 51.550686
+        },
+        "activityId": 101,
+        "isJoint": false,
+        "website": "londontennisacademy.com",
+        "telephone": "07956068492",
+        "days": ["Monday","Friday"],
+        "times": ["09:25","15:45"],
+        "rating": 5
+    },
+    {
+        "id": 16,
+        "name": "Bloomsbury Football",
+        "coordinates": {
+            "longitude": -0.121719,
+            "latitude": 51.525207
+        },
+        "activityId": 102,
+        "isJoint": false,
+        "website": "bloomsburyfa.com",
+        "telephone": "07561705232",
+        "days": ["Monday","Friday"],
+        "times": ["09:25","15:45"],
+        "rating": 5
+    },
+    {
+        "id": 17,
+        "name": "PFA United Football Academy",
+        "coordinates": {
+            "longitude": -0.124985,
+            "latitude": 51.525777
+        },
+        "activityId": 102,
+        "isJoint": false,
+        "website": "pfaunited.co.uk",
+        "telephone": "08009550019",
+        "days": ["Monday","Friday"],
+        "times": ["09:25","15:45"],
+        "rating": 5
+    },
+    {
+        "id": 18,
+        "name": "Footy Addicts",
+        "coordinates": {
+            "longitude": -0.156882,
+            "latitude": 51.521306
+        },
+        "activityId": 102,
+        "isJoint": false,
+        "website": "footyaddicts.com",
+        "telephone": "07768763362",
+        "days": ["Monday","Friday"],
+        "times": ["09:25","15:45"],
+        "rating": 5
+    },
+    {
+        "id": 19,
+        "name": "Belsize Park Rugby Football Club",
+        "coordinates": {
+            "longitude": -0.156882,
+            "latitude": 51.521306
+        },
+        "activityId": 103,
+        "isJoint": false,
+        "website": "bprfc.co.uk",
+        "telephone": "07706449708",
+        "days": ["Monday","Friday"],
+        "times": ["09:25","15:45"],
+        "rating": 5
+    },
+    {
+        "id": 20,
+        "name": "UCS Rugby Football Club",
+        "coordinates": {
+            "longitude": -0.156882,
+            "latitude": 51.521306
+        },
+        "activityId": 103,
+        "isJoint": false,
+        "website": "ucsrfc.co.uk",
+        "telephone": "07706449708",
+        "days": ["Monday","Friday"],
+        "times": ["09:25","15:45"],
+        "rating": 5
+    },
+    {
+        "id": 21,
+        "name": "Southwark Rugby",
+        "coordinates": {
+            "longitude": -0.156882,
+            "latitude": 51.521306
+        },
+        "activityId": 103,
+        "isJoint": false,
+        "website": "southwarkrugby.co.uk",
+        "telephone": "07740419539",
+        "days": ["Monday","Friday"],
+        "times": ["09:25","15:45"],
+        "rating": 5
+    },
+    {
+        "id": 22,
+        "name": "London Shodokan Aikido",
+        "coordinates": {
+            "longitude": -0.156882,
+            "latitude": 51.521306
+        },
+        "activityId": 104,
+        "isJoint": false,
+        "website": "aikidogreenwich.co.uk",
+        "telephone": "07817 151584",
+        "days": ["Monday","Friday"],
+        "times": ["09:25","15:45"],
+        "rating": 104
+    },
+    {
+        "id": 23,
+        "name": "London Aikikai - Traditional Aikido",
+        "coordinates": {
+            "longitude": -0.156882,
+            "latitude": 51.521306
+        },
+        "activityId": 104,
+        "isJoint": false,
+        "website": "londonaikikai.com",
+        "telephone": "07470311000",
+        "days": ["Monday","Friday"],
+        "times": ["09:25","15:45"],
+        "rating": 5
+    },
+    {
+        "id": 24,
+        "name": "The London Aikido Club",
+        "coordinates": {
+            "longitude": -0.156882,
+            "latitude": 51.521306
+        },
+        "activityId": 104,
+        "isJoint": false,
+        "website": "thelondonaikidoclub.co.uk",
+        "telephone": "07968796777",
+        "days": ["Monday","Friday"],
+        "times": ["09:25","15:45"],
+        "rating": 5
+    },
+    {
+        "id": 25,
+        "name": "Sobell Badminton Club",
+        "coordinates": {
+            "longitude": -0.156882,
+            "latitude": 51.521306
+        },
+        "activityId": 105,
+        "isJoint": false,
+        "website": "londonbadminton.co.uk",
+        "telephone": "07950491106",
+        "days": ["Monday","Friday"],
+        "times": ["09:25","15:45"],
+        "rating": 4
+    },
+    {
+        "id": 26,
+        "name": "Riverside Badminton Club",
+        "coordinates": {
+            "longitude": -0.156882,
+            "latitude": 51.521306
+        },
+        "activityId": 105,
+        "isJoint": false,
+        "website": "riversidebc.co.uk",
+        "telephone": "07950491106",
+        "days": ["Monday","Friday"],
+        "times": ["09:25","15:45"],
+        "rating": 5
+    },
+    {
+        "id": 27,
+        "name": "Band of Bakers",
+        "coordinates": {
+            "longitude": -0.156882,
+            "latitude": 51.521306
+        },
+        "activityId": 106,
+        "isJoint": false,
+        "website": "bandofbakers.wordpress.com",
+        "telephone": "07950491106",
+        "days": ["Monday","Friday"],
+        "times": ["09:25","15:45"],
+        "rating": 5
+    },
+    {
+        "id": 28,
+        "name": "Brixton Book Group",
+        "coordinates": {
+            "longitude": -0.156882,
+            "latitude": 51.521306
+        },
+        "activityId": 107,
+        "isJoint": false,
+        "website": "brixtonbookgroup.com",
+        "telephone": "07950491106",
+        "days": ["Monday","Friday"],
+        "times": ["09:25","15:45"],
+        "rating": 5
+    },
+    {
+        "id": 29,
+        "name": "Chessable Limited",
+        "coordinates": {
+            "longitude": -0.156882,
+            "latitude": 51.521306
+        },
+        "activityId": 108,
+        "isJoint": false,
+        "website": "chessable.com",
+        "telephone": "07950491106",
+        "days": ["Monday","Friday"],
+        "times": ["09:25","15:45"],
+        "rating": 4
+    },
+    {
+        "id": 30,
+        "name": "Wanstead & Woodford Chess Club",
+        "coordinates": {
+            "longitude": -0.156882,
+            "latitude": 51.521306
+        },
+        "activityId": 108,
+        "isJoint": false,
+        "website": "wansteadwoodfordcc.wordpress.com",
+        "telephone": "07949881881",
+        "days": ["Monday","Friday"],
+        "times": ["09:25","15:45"],
+        "rating": 5
+    }
 ]
