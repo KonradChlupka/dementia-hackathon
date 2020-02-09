@@ -39,7 +39,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7116C92C23EF46F8009D5E54 /* dementia-hackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dementia-hackathon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7116C92C23EF46F8009D5E54 /* Activify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Activify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7116C92F23EF46F8009D5E54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7116C93123EF46F8009D5E54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7116C93323EF46F8009D5E54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -93,7 +93,7 @@
 		7116C92D23EF46F8009D5E54 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7116C92C23EF46F8009D5E54 /* dementia-hackathon.app */,
+				7116C92C23EF46F8009D5E54 /* Activify.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -199,7 +199,7 @@
 			);
 			name = "dementia-hackathon";
 			productName = "dementia-hackathon";
-			productReference = 7116C92C23EF46F8009D5E54 /* dementia-hackathon.app */;
+			productReference = 7116C92C23EF46F8009D5E54 /* Activify.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -416,15 +416,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"dementia-hackathon/Preview Content\"";
-				DEVELOPMENT_TEAM = 5DRA6D57V3;
+				DEVELOPMENT_TEAM = Q2568C73M5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "dementia-hackathon/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dimaleyko.dementia-hackathon";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.konradchlupka.Landmarks;
+				PRODUCT_NAME = Activify;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -436,15 +436,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"dementia-hackathon/Preview Content\"";
-				DEVELOPMENT_TEAM = 5DRA6D57V3;
+				DEVELOPMENT_TEAM = Q2568C73M5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "dementia-hackathon/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dimaleyko.dementia-hackathon";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.konradchlupka.Landmarks;
+				PRODUCT_NAME = Activify;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
