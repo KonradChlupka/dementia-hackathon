@@ -88,7 +88,6 @@ struct ChatView_Previews: PreviewProvider {
 }
 
 func getUserOrClubNameFromChatId(id: Int) -> String {
-    print(id)
     var name = "ERROR"
     // it's a club
     if id < 20 {
