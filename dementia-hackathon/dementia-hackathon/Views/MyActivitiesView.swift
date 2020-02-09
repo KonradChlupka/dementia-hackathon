@@ -3,15 +3,23 @@ import SwiftUI
 struct MyActivitiesView: View {
     @EnvironmentObject var userData: UserData
     var body: some View {
-        NavigationView {
-            List {
-                ForEach(userData.activities) { activity in
-                    if activity.isInterested || areAnyClubsJoint(activity1: activity, userData: self.userData) {
-                        MyActivityCategoryButton(activity: activity)
+            NavigationView {
+                List {
+                    Text("Doing").bold().font(.system(size:34))
+                    ForEach(userData.activities) { activity in
+                        if areAnyClubsJoint(activity1: activity, userData: self.userData) {
+                            MyActivityCategoryButton(activity: activity)
+                        }
+                    }
+                    Text("Want to do").bold().font(.system(size:34))
+                    ForEach(userData.activities) { activity in
+                        if activity.isInterested && !areAnyClubsJoint(activity1: activity, userData: self.userData) {
+                            MyActivityCategoryButton(activity: activity)
+                        }
                     }
                 }
-            }
-            .navigationBarTitle(Text("My Activities"))
+            .navigationBarTitle("My Activities")
+                .navigationBarHidden(false)
         }
     }
 }

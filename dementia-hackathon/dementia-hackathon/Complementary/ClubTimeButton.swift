@@ -8,19 +8,17 @@
 
 import SwiftUI
 
-
-
 struct ClubTimeButton: View {
     var time: String
     var body: some View {
-        Button(action: { }) {
-            Text(time).bold().font(.system(size: 12))
+        Button(action: {}) {
+            Text(time).bold().font(.system(size: 20))
+
+                .padding(.all, 5.0)
+                .background(Color.blue)
+                .foregroundColor(Color.white)
+                .cornerRadius(15)
         }
-        .frame(width: 47, height: 24)
-            .background(Color.blue)
-        .foregroundColor(Color.white)
-        .cornerRadius(15)
-        
     }
 }
 
