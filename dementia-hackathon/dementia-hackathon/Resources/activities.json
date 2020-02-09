@@ -3,24 +3,63 @@
         "id": 100,
         "name": "Yoga",
         "imageName": "yoga",
-        "isInterested": true
+        "isInterested": true,
+        "description": "Yoga is a group of physical, mental, and spiritual practices or disciplines which originated in ancient India. Yoga is one of the six orthodox schools of Hindu philosophical traditions. There is a broad variety of yoga schools, practices, and goals in Hinduism, Buddhism, and Jainism. The term yoga in the Western world often denotes a modern form of Hatha yoga, yoga as exercise, consisting largely of the postures called asanas."
     },
     {
         "id": 101,
         "name": "Tennis",
         "imageName": "tennis",
-        "isInterested": false
+        "isInterested": false,
+        "description": "Tennis is a racket sport that can be played individually against a single opponent or between two teams of two players each. Each player uses a tennis racket that is strung with cord to strike a hollow rubber ball covered with felt over or around a net and into the opponent's court. The object of the game is to maneuver the ball in such a way that the opponent is not able to play a valid return. The player who is unable to return the ball will not gain a point, while the opposite player will."
     },
     {
         "id": 102,
         "name": "Football",
         "imageName": "football",
-        "isInterested": false
+        "isInterested": true,
+        "description": "Association football, more commonly known as football or soccer, is a team sport played with a spherical ball between two teams of 11 players. It is played by approximately 250 million players in over 200 countries and dependencies, making it the world's most popular sport. The game is played on a rectangular field called a pitch with a goal at each end. The object of the game is to score by moving the ball beyond the goal line into the opposing goal."
     },
     {
         "id": 103,
         "name": "Rugby",
         "imageName": "rugby",
-        "isInterested": false
+        "isInterested": false,
+        "description": "Rugby union, widely known simply as rugby, is a contact team sport that originated in England in the first half of the 19th century. One of the two codes of rugby football, it is based on running with the ball in hand. In its most common form, a game is played between two teams of 15 players using an oval-shaped ball on a rectangular field with H-shaped goalposts at either end."
+    },
+    {
+        "id": 104,
+        "name": "Aikido",
+        "imageName": "aikido",
+        "isInterested": true,
+        "description": "Aikido is a modern Japanese martial art developed by Morihei Ueshiba as a synthesis of his martial studies, philosophy and religious beliefs. Ueshiba's goal was to create an art that practitioners could use to defend themselves while also protecting their attackers from injury. Aikido is often translated as the way of unifying life energy or as the way of harmonious spirit."
+    },
+    {
+        "id": 105,
+        "name": "Badminton",
+        "imageName": "badminton",
+        "isInterested": false,
+        "description": "Badminton is a racquet sport played using racquets to hit a shuttlecock across a net. Although it may be played with larger teams, the most common forms of the game are singles and doubles. Badminton is often played as a casual outdoor activity in a yard or on a beach; formal games are played on a rectangular indoor court. Points are scored by striking the shuttlecock with the racquet and landing it within the opposing side's half of the court."
+    },
+    {
+        "id": 106,
+        "name": "Bakery",
+        "imageName": "bakery",
+        "isInterested": true,
+        "description": "Baking is a method of preparing food that uses dry heat, normally in an oven, but can also be done in hot ashes, or on hot stones. The most common baked item is bread but many other types of foods are baked. Heat is gradually transferred from the surface of cakes, cookies, and breads to their center. As heat travels through, it transforms batters and doughs into baked goods and more with a firm dry crust and a softer centre."
+    },
+    {
+        "id": 107,
+        "name": "Book Clubs",
+        "imageName": "bookclubs",
+        "isInterested": false,
+        "description": "A book discussion club is a group of people who meet to discuss a book or books that they have read and express their opinions, likes, dislikes, etc. It is more often called simply a book club, a term that is also used to describe a book sales club, which can cause confusion. Other frequently used terms to describe a book discussion club include reading group, book group, and book discussion group. Book discussion clubs may meet in private homes, libraries, bookstores, online forums, pubs, and in cafés or restaurants over meals or drinks."
+    },
+    {
+        "id": 108,
+        "name": "Chess",
+        "imageName": "chess",
+        "isInterested": true,
+        "description": "Chess is a two-player strategy board game played on a checkered board with 64 squares arranged in an 8×8 grid. The game is played by millions of people worldwide. Chess is believed to be derived from the Indian game chaturanga sometime before the 7th century. Chaturanga is also the likely ancestor of the Eastern strategy games xiangqi, janggi, and shogi. Chess reached Europe by the 9th century, due to the Umayyad conquest of Hispania."
     }
 ]

@@ -7,6 +7,7 @@ struct Activity: Hashable, Codable, Identifiable {
     var name: String
     var imageName: String
     var isInterested: Bool
+    var description: String
 }
 
 struct Club: Hashable, Codable, Identifiable {
@@ -25,7 +26,6 @@ struct Club: Hashable, Codable, Identifiable {
     var telephone: String
     var days: [String]
     var times: [String]
-    var description: String
     
 }
 
